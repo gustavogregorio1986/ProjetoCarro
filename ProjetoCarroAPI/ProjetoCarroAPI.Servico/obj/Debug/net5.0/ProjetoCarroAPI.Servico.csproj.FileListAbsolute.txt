@@ -1,0 +1,17 @@
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\bin\Debug\net5.0\ProjetoCarroAPI.Servico.deps.json
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\bin\Debug\net5.0\ProjetoCarroAPI.Servico.dll
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\bin\Debug\net5.0\ProjetoCarroAPI.Servico.pdb
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\bin\Debug\net5.0\ProjetoCarroAPI.Data.dll
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\bin\Debug\net5.0\ProjetoCarroAPI.Dominio.dll
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\bin\Debug\net5.0\ProjetoCarroAPI.Data.pdb
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\bin\Debug\net5.0\ProjetoCarroAPI.Dominio.pdb
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.csproj.AssemblyReference.cache
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.AssemblyInfoInputs.cache
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.AssemblyInfo.cs
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.csproj.CoreCompileInputs.cache
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.csproj.CopyComplete
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.dll
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\refint\ProjetoCarroAPI.Servico.dll
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ProjetoCarroAPI.Servico.pdb
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI.Servico\obj\Debug\net5.0\ref\ProjetoCarroAPI.Servico.dll
