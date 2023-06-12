@@ -1,5 +1,6 @@
 ﻿using ProjetoCarroAPI.Data.DTO;
 using ProjetoCarroAPI.Data.Repository.Interface;
+using ProjetoCarroAPI.Dominio.Dominio;
 using ProjetoCarroAPI.Servico.Servico.Interface;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,9 @@ namespace ProjetoCarroAPI.Servico.Servico
     {
         private readonly IPagamentoRepository pagamentoRepository;
 
-        public void Adicionar(PagamentoDTO pagamentoDTO)
+        public void Adicionar(Pagamento pagamento)
         {
-            pagamentoRepository.Adicionar(pagamentoDTO);
+            pagamentoRepository.Adicionar(pagamento);
         }
     }
 }

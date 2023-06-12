@@ -10,11 +10,19 @@ namespace ProjetoCarroAPI.Data.Contexto
 {
     public class ProjetoCarroAPIContexto : DbContext
     {
+        private DbContextOptionsBuilder options;
+
+        public ProjetoCarroAPIContexto()
+        {
+        }
+
         public ProjetoCarroAPIContexto(DbContextOptions options)
             : base(options)
         {
 
         }
+
+      
 
         public DbSet<Carro> Carros { get; set; }
 

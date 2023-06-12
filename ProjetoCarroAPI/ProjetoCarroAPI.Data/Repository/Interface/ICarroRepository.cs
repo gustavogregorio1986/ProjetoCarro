@@ -1,4 +1,5 @@
-﻿using ProjetoCarroAPI.Dominio.Dominio;
+﻿using ProjetoCarroAPI.Data.DTO;
+using ProjetoCarroAPI.Dominio.Dominio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace ProjetoCarroAPI.Data.Repository.Interface
 {
-    public interface ICarro
+    public interface ICarroRepository
     {
-        void Adicionar(Carro carro);
+        void Adicionar(CarroDTO carroDTO);
     }
 }
