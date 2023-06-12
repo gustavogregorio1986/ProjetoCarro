@@ -26,20 +26,10 @@ namespace ProjetoCarroAPI.Controllers
         public JsonResult Cadastro([FromBody] Pagamento pagamento)
         {
             PagamentoDTO pagamentoDTO = new PagamentoDTO();
-            pagamento.Preco = pagamentoDTO.PrecoDTO;
-            pagamento.QtdeServicos = pagamentoDTO.QtdeComprasDTO;
+            PessoaDTO pessoaDTO = new PessoaDTO();
             pagamento.Pessoa = new Pessoa();
-            pagamento.Pessoa.NomePessoa = pagamentoDTO.PessoaDTO.NomePessoaDTO;
-            pagamento.Pessoa.EmailPessoa = pagamentoDTO.PessoaDTO.EmailPessoaDTO;
-            pagamento.Pessoa.Sexo = pagamentoDTO.PessoaDTO.SexoDTO;
-            pagamento.Pessoa.Cpf = pagamentoDTO.PessoaDTO.CpfDTO;
-            pagamento.Pessoa.Telefone = pagamentoDTO.PessoaDTO.TelefoneDTO;
+            CarroDTO carroDTO = new CarroDTO();
             pagamento.Pessoa.Carro = new Carro();
-            pagamento.Pessoa.Carro.NomeCarro = pagamentoDTO.PessoaDTO.CarroDTO.NomeMarcaDTO;
-            pagamento.Pessoa.Carro.Marca = pagamentoDTO.PessoaDTO.CarroDTO.marcaDTO;
-            pagamento.Pessoa.Carro.Cor = pagamentoDTO.PessoaDTO.CarroDTO.CorDTO;
-            pagamento.Pessoa.Carro.Descricao = pagamentoDTO.PessoaDTO.CarroDTO.DescricaoDTO;
-
             return new JsonResult(pagamentoDTO);
         }
     }
