@@ -1,10 +1,3 @@
-C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.csproj.AssemblyReference.cache
-C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.AssemblyInfoInputs.cache
-C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.AssemblyInfo.cs
-C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.csproj.CoreCompileInputs.cache
-C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\bin\Debug\net5.0\appsettings.json
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\bin\Debug\net5.0\ProjetoCarroAPI.exe
@@ -55,6 +48,13 @@ C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\bin\Debug\net5.0\ProjetoCarro
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\bin\Debug\net5.0\ProjetoCarroAPI.Data.pdb
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\bin\Debug\net5.0\ProjetoCarroAPI.Dominio.pdb
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\bin\Debug\net5.0\ProjetoCarroAPI.Servico.pdb
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.csproj.AssemblyReference.cache
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.AssemblyInfoInputs.cache
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.AssemblyInfo.cs
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.csproj.CoreCompileInputs.cache
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\scopedcss\bundle\ProjetoCarroAPI.styles.css
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\staticwebassets\ProjetoCarroAPI.StaticWebAssets.Manifest.cache
 C:\ProjetoCarroWeb\ProjetoCarroAPI\ProjetoCarroAPI\obj\Debug\net5.0\ProjetoCarroAPI.RazorTargetAssemblyInfo.cache
