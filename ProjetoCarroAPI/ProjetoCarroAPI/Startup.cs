@@ -13,6 +13,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using ProjetoCarroAPI.Dominio.Dominio;
+using ProjetoCarroAPI.Data.Repository.Interface;
+using ProjetoCarroAPI.Data.Repository;
+using ProjetoCarroAPI.Servico.Servico.Interface;
+using ProjetoCarroAPI.Servico.Servico;
+using ProjetoCarroAPI.Controllers;
 
 namespace ProjetoCarroAPI
 {
@@ -28,12 +34,30 @@ namespace ProjetoCarroAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddDbContext<ProjetoCarroAPIContexto>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProjetoCarroAPI", Version = "v1" });
             });
+
+            using IHost host = Host.CreateDefaultBuilder()
+    .ConfigureServices(services =>
+    {
+        //injeção de depencia do repositorio e da interface
+        services.AddTransient<ICarroRepository, CarroRepository>();
+        services.AddScoped<IPagamentoRepository, PagamentoRepository>();
+        services.AddSingleton<IPessoaRepository, PessoaRepository>();
+
+        //injeção de dependencia do repositorio e do serviço
+        services.AddSingleton<ICarroServico, CarroServico>();
+        services.AddSingleton<IPagamentoServico, PagamentoServico>();
+        services.AddSingleton<IPessoaServico, PessoaServico>();
+
+        services.AddTransient<CarroController>();
+    })
+    .Build();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,7 +70,10 @@ namespace ProjetoCarroAPI
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProjetoCarroAPI v1"));
             }
 
+            
+
             app.UseHttpsRedirection();
+
 
             app.UseRouting();
 

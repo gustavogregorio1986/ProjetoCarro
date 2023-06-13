@@ -1,5 +1,6 @@
 ﻿using ProjetoCarroAPI.Data.DTO;
 using ProjetoCarroAPI.Data.Repository.Interface;
+using ProjetoCarroAPI.Dominio.Dominio;
 using ProjetoCarroAPI.Servico.Servico.Interface;
 using System;
 using System.Collections.Generic;

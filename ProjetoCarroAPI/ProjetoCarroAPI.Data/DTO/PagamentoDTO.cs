@@ -17,7 +17,6 @@ namespace ProjetoCarroAPI.Data.DTO
 
         public PessoaDTO PessoaDTO { get; set; }
 
-        public int Id_PessoaDTO { get; set; }
 
         public PagamentoDTO()
         {

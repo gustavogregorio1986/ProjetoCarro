@@ -14,9 +14,9 @@ namespace ProjetoCarroAPI.Servico.Servico
     {
         private readonly IPagamentoRepository pagamentoRepository;
 
-        public void Adicionar(Pagamento pagamento)
+        public void Adicionar(PagamentoDTO pagamentoDTO)
         {
-            pagamentoRepository.Adicionar(pagamento);
+            pagamentoRepository.Adicionar(pagamentoDTO);
         }
     }
 }
